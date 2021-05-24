@@ -8,6 +8,9 @@ docker rm $(docker ps -aq)
 
 // Remove all images
 docker rmi $(docker images -q)
+
+// Prune Images
+docker system prune
 ```
 
 # AspnetMicroservices
