@@ -1,3 +1,15 @@
+# Docker Commands
+```
+// List all docker containers (running and stopped)
+docker ps -aq
+
+// Remove all containers
+docker rm $(docker ps -aq)
+
+// Remove all images
+docker rmi $(docker images -q)
+```
+
 # AspnetMicroservices
 AspnetMicroservices
 
