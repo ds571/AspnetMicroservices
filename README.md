@@ -1,7 +1,7 @@
 
-[![Screenshot_6](https://user-images.githubusercontent.com/1147445/85838002-907dc280-b7a1-11ea-8219-f84e3af8ba52.png)](https://www.udemy.com/course/microservices-architecture-and-implementation-on-dotnet/?couponCode=MAY2021)
+[![Screenshot_6](https://user-images.githubusercontent.com/1147445/85838002-907dc280-b7a1-11ea-8219-f84e3af8ba52.png)](https://www.udemy.com/course/microservices-architecture-and-implementation-on-dotnet/?couponCode=JULY2021)
 
-**UDEMY COURSE WITH DISCOUNTED - Step by Step Development of this repository -> https://www.udemy.com/course/microservices-architecture-and-implementation-on-dotnet/?couponCode=MAY2021**
+**UDEMY COURSE WITH DISCOUNTED - Step by Step Development of this Repository -> https://www.udemy.com/course/microservices-architecture-and-implementation-on-dotnet/?couponCode=JULY2021**
 
 See the overall picture of **implementations on microservices with .net tools** on real-world **e-commerce microservices** project;
 
@@ -93,9 +93,12 @@ Follow these steps to get your development environment set up: (Before Run Start
 ```csharp
 docker-compose -f docker-compose.yml -f docker-compose.override.yml up -d
 ```
-3. Wait for docker compose all microservices. That’s it! (some microservices need extra time to work so please wait if not worked in first shut)
 
-4. You can **launch microservices** as below urls:
+>Note: If you get connection timeout error Docker for Mac please [Turn Off Docker's "Experimental Features".](https://github.com/aspnetrun/run-aspnetcore-microservices/issues/33)
+
+4. Wait for docker compose all microservices. That’s it! (some microservices need extra time to work so please wait if not worked in first shut)
+
+5. You can **launch microservices** as below urls:
 
 * **Catalog API -> http://host.docker.internal:8000/swagger/index.html**
 * **Basket API -> http://host.docker.internal:8001/swagger/index.html**
