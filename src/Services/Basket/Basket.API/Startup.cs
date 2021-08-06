@@ -1,5 +1,6 @@
 using Basket.API.GrpcServices;
 using Basket.API.Repositories;
+using Common.Logging;
 using Discount.Grpc.Protos;
 using MassTransit;
 using Microsoft.AspNetCore.Builder;
